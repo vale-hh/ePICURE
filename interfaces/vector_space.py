@@ -23,6 +23,7 @@ class VectorSpace:
     def basis(self, i):
         self.check_index(i)
         return lambda x: 1.0
+    'Return the constant function 1'
 
     def basis_der(self, i, d):
         self.check_index(i)
